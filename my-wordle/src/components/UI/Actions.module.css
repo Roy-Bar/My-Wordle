@@ -1,0 +1,11 @@
+.actions {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.actionBtn {
+    cursor: pointer;
+    margin-top: 5px;    
+  }
+  

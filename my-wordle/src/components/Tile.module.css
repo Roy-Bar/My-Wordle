@@ -1,0 +1,27 @@
+.tile {
+  border: solid 1px black;
+  background-color: azure;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile.focused {
+  border: solid 3px lightseagreen;
+}
+
+.tile.almost {
+  background-color: #fafa80;
+}
+
+.tile.correct {
+  background-color: #8afa80;
+}
+
+.tile.clickable {
+  cursor: pointer;
+}
